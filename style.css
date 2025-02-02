@@ -1,0 +1,248 @@
+header {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1vw;
+        padding-right: 1vw;
+
+        .Logo {
+            display: flex;
+
+            img {
+                width: 40%;
+                height: 50%;
+                margin-top: 10px;
+            }
+        }
+
+        .nav-center {
+            margin-left: 170px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            align-self: center;
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 1.5rem;
+            align-items: center;
+            justify-content: right;
+
+            li > a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        .signin {
+            font-size: 1.2rem;
+            border-radius: 20vh;
+            width: 6.25rem;
+            height: 2.5rem;
+            position: relative;
+            border: lightgray 1px solid;
+            top: 0;
+            transition: 500ms all ease-in-out;
+            text-align: center;
+            align-content: center;
+        }
+
+        .signup {
+            font-size: 1.2rem;
+            border-radius: 20vh;
+            width: 6.25rem;
+            height: 2.5rem;
+            position: relative;
+            border: lightgray 1px solid;
+            text-align: center;
+            align-content: center;
+            top: 0;
+            transition: 500ms all ease-in-out;
+            color: white;
+            background-color: black;
+        }
+        .signup:hover {
+            color: black;
+            background-color: white;
+            box-shadow: 0 3px 10px black;
+        }
+
+        .signin:hover {
+            box-shadow: 0 3px 10px black;
+        }
+    }
+}
+
+main {
+    align-items: center;
+
+    .lp {
+        background-color: #f0f0f0;
+        color: #adadad;
+        padding: 0.5rem 1rem;
+        border-radius: 20vh;
+    }
+
+    .hero {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h1 {
+            color: black;
+            font-size: 64px;
+
+            span {
+                color: darkorange;
+            }
+        }
+
+        .exploreCourses {
+            font-size: 1rem;
+            width: 12rem;
+            height: 3.5rem;
+            border-radius: 20vh;
+            position: relative;
+            border: #adadad 1px solid;
+            top: 0;
+            transition: 500ms all ease-in-out;
+            color: white;
+            background-color: black;
+        }
+
+        .exploreCourses:hover {
+            color: black;
+            background-color: white;
+            box-shadow: 0 3px 10px black;
+        }
+
+        .joinBootcamps {
+            font-size: 1rem;
+            width: 12rem;
+            height: 3.5rem;
+            border-radius: 20vh;
+            position: relative;
+            border: #adadad 1px solid;
+            top: 0;
+            transition: 500ms all ease-in-out;
+            background-color: white;
+        }
+
+        .joinBootcamps:hover {
+            box-shadow: 0 3px 10px black;
+        }
+    }
+
+    .brands {
+        width: 100vw;
+    }
+
+    .courses {
+        text-align: center;
+        align-items: center;
+        background-color: #F8F8F8;
+
+        .popularOnes {
+            background-color: #f0f0f0;
+            color: #adadad;
+            padding: 0.5rem 1rem;
+            border-radius: 20vh;
+        }
+
+        h2 {
+            font-size: 48px;
+
+            span {
+                color: darkorange;
+            }
+        }
+
+        .images {
+            display: flex;
+            gap: 5rem;
+            justify-content: space-evenly;
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+        .img {
+            border-radius: 20px;
+            border-color: black;
+        }
+
+        .button1 {
+            font-size: 1rem;
+            width: 8rem;
+            height: 2.5rem;
+            border-radius: 20vh;
+            position: relative;
+            border: #adadad 1px solid;
+            top: 0;
+            transition: 500ms all ease-in-out;
+            background-color: white;
+        }
+
+        .button1:hover {
+            box-shadow: 0 3px 10px black;
+        }
+
+        .button2 {
+            font-size: 1rem;
+            width: 8rem;
+            height: 2.5rem;
+            border-radius: 20vh;
+            position: relative;
+            border: #adadad 1px solid;
+            top: 0;
+            transition: 500ms all ease-in-out;
+            color: white;
+            background-color: black;
+        }
+
+        .button2:hover {
+            color: black;
+            background-color: white;
+            box-shadow: 0 3px 10px black;
+        }
+
+        article {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+
+            button {
+                float: right;
+            }
+        }
+    }
+
+    .about {
+        margin-left: 5rem;
+        display: flex;
+        justify-content: space-evenly;
+        .text {
+            .advantage {
+                background-color: #f0f0f0;
+                color: #adadad;
+                padding: 0.5rem 1rem;
+                border-radius: 20vh;
+            }
+
+            h3 {
+                font-size: 36px;
+
+                span {
+                    color: darkorange;
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+        }
+    }
+}
